@@ -1,4 +1,4 @@
-import { v4 } from "https://deno.land/std@0.93.0/uuid/mod.ts";
+import { v4 } from "https://deno.land/std@0.116.0/uuid/mod.ts";
 import MemoryStore from "./stores/MemoryStore.js";
 
 export default class Session {

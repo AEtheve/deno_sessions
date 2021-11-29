@@ -1,5 +1,5 @@
 import Session from '../Session.js'
-import { getCookies } from "https://deno.land/std@0.93.0/http/cookie.ts";
+import { getCookies } from "https://deno.land/std@0.116.0/http/cookie.ts";
 
 export default class OpineSession extends Session {
   constructor(opineApp, options = {}, store) {

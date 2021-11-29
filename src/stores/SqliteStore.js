@@ -1,4 +1,4 @@
-import { DB } from "https://deno.land/x/sqlite@v2.4.0/mod.ts";
+import { DB } from "https://deno.land/x/sqlite@v3.1.3/mod.ts";
 
 export default class SqliteStore {
   constructor(options) {
