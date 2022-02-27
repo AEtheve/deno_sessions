@@ -1,4 +1,4 @@
-import { MongoClient } from "https://deno.land/x/mongo@vv0.29.2/mod.ts";
+import { MongoClient } from "https://deno.land/x/mongo@v0.29.2/mod.ts";
 
 export default class MongoStore {
     constructor(options) {
